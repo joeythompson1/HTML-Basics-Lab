@@ -42,8 +42,8 @@ function prompt6(){
 }
 
 function prompt7(){
-    for(var i = 0; i <= 10; i = i*9){
-        console.log(i);
+    for(var i = 0; i <= 10; i++){
+        console.log(`${i * 9}`);
     }
 }
 
@@ -81,7 +81,7 @@ function prompt11(){
 function prompt12(){
     var i = 0;
     do{
-        console.log(`'I' is not a high enough number yet.`)
+        console.log(`'I' is not a high enough number yet.`);
         i++;
     } while(i < 5);
 }

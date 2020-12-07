@@ -1,0 +1,38 @@
+html{
+    background-color: blue;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+#nav-holder{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li a:hover {
+    background-color: #111111;
+  }
+.nav-list{
+    list-style-type: none;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: yellow;
+    font-size: bold;
+}
+
+p{
+    color: yellow;
+}
